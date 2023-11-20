@@ -1,0 +1,55 @@
+.Dashboard_Container{
+    width:100vw;
+    height: 100vh;
+
+}
+.app_container{
+    width: 100vw;
+    height: 100vh;
+}
+.side_panel{
+
+}
+.side_container{
+    /*background-color: #0D1821;*/
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #1F1E1F, #2A2829);
+    /*background: linear-gradient(to bottom, #2A2829, #1F1E1F);*/
+}
+.main_display{
+    /*background-color: #736F72;*/
+    /*background: linear-gradient(to bottom, #1F1E1F, #2A2829);*/
+    background: url("/public/Baxter.png"), linear-gradient(to bottom, #060B0F, #0d1821);
+    background-size: 100% auto, 100% 100%;
+    background-repeat: no-repeat;
+    /*background-position: 100% 50%, 0% 0%;*/
+
+
+
+}
+.active_tab{
+    background-color: #060B0F;
+    color: #EAC435;
+}
+.tab{
+    border-top-right-radius: 10px; /* Adjust the radius as needed */
+    border-bottom-right-radius: 10px;
+    margin-bottom: 25px;
+    /* Adjust the radius as needed */
+}
+.tab_panel{
+    padding-top: 50px;
+    font-size: 25px;
+}
+.clock_card {
+    background-color: #0d1821;
+    width: 5vw;
+    height: 5vh;
+    color: #EAC435;
+}
+.timer_card{
+    background-color: #0d1821;
+    width: 15vw;
+    height: 5vh;
+    color: #EAC435;
+}
