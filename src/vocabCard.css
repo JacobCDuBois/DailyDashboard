@@ -1,0 +1,39 @@
+.card {
+    /*perspective: 1000px;*/
+    width: 20vw;
+    min-height: 20vh;
+    /*transform-style: preserve-3d;*/
+    transition: transform 0.5s;
+    cursor: pointer;
+    /*margin: 20px;*/
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+}
+
+/*.card:hover .card-inner {*/
+/*    transform: rotateY(180deg);*/
+/*}*/
+
+/*.card.flipped .card-inner {*/
+/*    transform: rotateY(180deg);*/
+/*}*/
+
+.card-front,
+.card-back {
+    width: 100%;
+    height: 100%;
+}
+
+.card-front {
+    background-color: #3498db; /* Front side background color */
+    color: #fff; /* Front side text color */
+}
+
+.card-back {
+    background-color: #e74c3c; /* Back side background color */
+    color: #fff; /* Back side text color */
+    /*transform: rotateY(180deg);*/
+}

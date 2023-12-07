@@ -60,9 +60,12 @@ const TimerCard = () => {
     return (
         <div className="timer_card">
             <h1>{FormatSeconds(seconds)}</h1>
-            <button onClick={handleStart}>Start</button>
-            <button onClick={handleStop}>Stop</button>
-            <button onClick={handleReset}>Reset</button>
+            <div>
+
+                <button onClick={handleStart}>&#9654;</button>
+                <button onClick={handleStop}>&#9208;</button>
+                <button onClick={handleReset}>&#128257;</button>
+            </div>
         </div>
     );
 };
